@@ -1,165 +1,253 @@
-:::: OFF :::::
+﻿:::: OFF :::::
 ::  V.1.6.1   ::
-:Translation V. 3.0:
+:日本語版 V.1.2.3 :
 
-Thank you for having downloaded OFF. All your comments, remarks, bug reports and criticisms are welcome. Don't hesitate to contact me directly to let me read them (check the "Contact" section at the end of this file).
 
-INSTRUCTIONS
+【はじめに】
+OFF日本語版をダウンロードしてくださってありがとうございます。
+ゲームに関するご連絡はこのファイルの中間あたりにある“コンタクト”の章に記載したメールアドレス等までお気軽にどうぞ！
 
-- Program -
-To launch the game, double click the file named "RPG_RT.exe" in the game's main folder.
-Once the game starts, press F4 to play in window mode.
-Press F5 to change the window size.
 
-If an error message appears, you'll have to download and install a program called RPG Maker 2003. It's not hard to use and you can easily create RPGs with it! It's quite easy to find it in French on the internet, but you'll have to download another program called the RTP, or else RPG Maker doesn't work properly. Make sure you have installed the 2003 version. Afterwards, try double-clicking the "RPG_RT.EXE" file again.
+【注意事項】
+※日本語版製作者及び原作者は本ゲームによって発生する損害・不利益・事故等においては一切責任を負わないものとします。
 
-If that still doesn't work, I don't know what I can do for you. Go ask people who are more intelligent than I am (there are many of those) or try downloading the game to another computer.
+※本ゲームの2次配布、再配布は禁じます。
 
-- PLAYING THE GAME -
-Use the arrow keys to move the main character (the Batter)
-Use Enter or Space to interact with decorative elements or other characters
-Use Esc or 0 (zero) to open the main menu and to go back through menus.
-Use the F4 key to toggle between full-screen and windowed mode. Use F5 to change the size of the latter.
 
-FAQ
+【取扱い説明書】
 
-Q : The font OFF is written in is unreadable.
-A : Well that sucks, because I have done everything I could to solve this problem. Try installing "Profont.fon" into the "Fonts" folder of your computer.
-[Translator's note: Due to the engine update OFF 3.0 runs in, this should no longer be an issue.]
+- プログラム -
 
-Q : I don't understand the battle system ...
-A : There's a tutorial available at the beginning of the game. If you still can't understand the system ... Hmmm... Go and ask for help at the Zanarkand forums (http://zanaforum.free.fr) or tinker with the system itself to figure it out.
+ダウンロードしたZipファイルを解凍後、ゲームのメインフォルダ内にある"RPG_RT.exe"をダブルクリックするとゲームが起動します。
+ウィンドウモードで遊ぶには、ゲームが始まってからF4キーを押してください。F5キーを押すとウィンドウのサイズを変えられます。
 
-Q : Can you access Alma?
-A : Close this file and play to find out.
+※起動の際エラーが発生した場合はRPGツクール2003RTPをダウンロード、インストールをお試しください。
+http://tkool.jp/support/download/rpg2003/rtp　こちらからダウンロードを行ってください。
 
-Q : I don't understand the story at all.
-A : That's more or less normal. Things may become clearer to you as the game progresses, but I can't guarantee it.
 
-Q : Are there any secret codes to unlock stuff?
-A : There is one, namely this one: Down - Left - Up - Right - Z - J - B - D - B - Start.
+- ゲーム操作 -
 
-Q : Will there be a sequel to OFF?
-A : We are thinking about it.
+十字キー：メインキャラクター(バッター)の移動
+エンターキー/スペースキー：オブジェクトを調べる・他のキャラクターと話す
+Escキー/0(ゼロ)キー：メインメニューを開く・ひとつ前にもどる(メニュー選択時)
 
-Q : How do you unlock the secret ending?
-A : *Whistle* *whistle*...
+F4キー：フルスクリーンモードとウィンドウモードの切り替え
+F5キー：ウィンドウサイズの変更
 
-Q : What does FAQ, Q and A mean ?
-A : FAQ means Funfair And Questions, Q means Question and A Answer.
 
-Q : What does DARPA mean ?
-A : Department of Armament Research and umm ... Well, something like that, I think. But this question has nothing to do with OFF anyway...
+- 戦闘システム補足 -
 
-Q : Can I use your graphics resources?
-A : (I don't think people would want to, but...) Help yourself. (If you do that, maybe think about putting my name into the credits of your game... please.) On the other hand, please avoid making games that are set in the same world as OFF. We have a backstory that we'd like to exploit to the core.
+Escキーを押すことで開けるメインメニューの「ウェイト/アクティブ」を切り替える事で戦闘システムを変更できます。
+ウェイト…ゲージを溜めた状態で個人コマンドを選択する際、敵キャラクターを含む他キャラクターの行動が止まる。じっくり戦略を練りたい方向け。
+アクティブ…ゲージを溜めた状態で個人コマンドを選択する際、敵キャラクターを含む他キャラクターの行動が止まらない。スピーディな戦闘を楽しみたい方向け。
 
-Q : Can I use your music in my game?
-A : That's a more delicate issue. Contact Alias Conrad Coldwood first, please. (aliasconradcoldwood@gmail.com)
 
-Q : About the music, I noticed that some of the loops aren't perfect...
-A : Yak yak yaaaaaak! They are perfect! It's just that RPG Maker doesn't like us.
 
-Q : I'm stuck ...
-A : I wrote a complete walkthrough, which you can find here:
-http://gaarabis.free.fr/_mortis/off/Soluce.txt
-[Translator's note: This walkthrough is, unfortunately, in French. There is, however, a wonderful OFF walkthrough on the internet by jayisgames. Check it out here: https://jayisgames.com/review/off.php]
+【FAQ（仏語版からの翻訳・一部日本語版での追記）】
 
-Q : Can't you see that French is a horrible language?
-A : An English version is expected to arrive in the foreseeable future. Still, let me tell you that you have absolutely no taste. Information on the English version can be found here: 
+Q : OFFのゲームで使われている文字フォントが読みづらいです。（日本語版追記）
+A : 日本語版データ担当：YSSN より→日本語版ではツクール2003のデフォルト設定であるMSゴシックを使用しています。変更を試みましたが私の技術力では無理でした…ごめんなさい！
+
+Q : 戦闘のしくみがわかりません…
+A : ゲーム冒頭に戦闘チュートリアルがあります。チュートリアルを終えてもわからなければ…うーん… Zanarkand forums (http://zanaforum.free.fr)(※仏語)で質問してみるか、わかるまで自分でいじくり回してみてください。
+
+Q : 敵から逃げられない！（日本語版追記）
+A : 逃走コマンドについて
+戦闘開始直後の"戦闘"、"オート"、"逃走"コマンドのうち、"逃走"に関しては選択する事が出来ません。（先制攻撃を仕掛けた時のみ有効。これはツクールの仕様です）
+戦闘から逃走したい場合は一度"戦闘"コマンドを選択し、ゲージを溜めてバッターの戦闘コマンドから"逃走"を選ぶことで戦闘からの離脱を試みることが可能です。
+
+Q : アルマには行けるんですか？
+A : このファイルを閉じて、実際にプレイしてみてください。
+
+Q : ゲーム内で何が起きてるのか理解できません。
+A : 人によりますが、それが普通です。ゲームを進めるにつれだんだんはっきりしてくると思いますが、理解できるかどうか保証はできないですね。
+
+Q : ロックを解除する隠しコードってありますか？
+A : あります。これです：↓ - ← - ↑ - → - Z - J - B - D - B - スタート
+
+Q : OFFの続編は出るんですか？
+A : 今考えてるところです。
+
+Q : シークレットエンディングはどうやれば見られるんですか？
+A : *ヒューッ♪（口笛）* *ヒュルルーッ♪(口笛)*…
+
+Q : FAQのQとAって何ですか？
+A : FAQは遊園地(Funfair)と質問(Question)の略で、Qは質問(Question)、Aは答え(Answer)を意味してます。
+
+Q: DARPAって何ですか？
+A: 軍備(Armament)調査(Research)…ナントカ…局(Department)とか…ええと、そんな感じのものです。しかしこの質問、OFFには関係ないんじゃないですかね…
+
+Q : ゲーム内の画像データを使用してもいいですか？
+A : （そんなことをしたがる人がいるとは思わないんですが、一応…）ご自由にどうぞ。（もし使用する場合は、あなたのゲーム内に作者として私の名前を入れてください…お願いします。）ただし、OFFと同じ世界観のゲームを作ることは避けてください。こちらで考えてあるOFFのバックグラウンドストーリーを余すところなく活用したものを、いつか公開するつもりですから。
+
+Q : ゲーム内の音楽を、私が作ったゲーム内で使用してもいいですか？
+A : これはひとつ前の質問よりもっと難しいですね…まずはどうか、音楽を制作したAlias Conrad Coldwoodに連絡を取ってください、お願いします。(メール：aliasconradcoldwood@gmail.com)
+
+Q : 数か所、音楽のループが完全じゃないところを見つけたんですが…
+A : いや、いや、いやあ、そんなことはないですよ！全部ループは完璧です！RPGツクールの仕様のせいです。
+
+Q : 行き詰まっちゃいました…
+A : 完全な攻略チャートを書いておきました。こちらをご覧ください。
+http://gaarabis.free.fr/_mortis/off/Soluce.txt（※確認しましたが、現在は存在しません）
+
+Q : フランス語版しかないなんてひどくないですか？
+A : いつかはわかりませんが、将来英語版が出るかもしれません。それにしても、あなたは随分無粋な人ですね。英語版についての情報はこちらで見られます：
 http://www.rpg-maker.fr/index.php?page=forum&id=3910&deb=1
-[Translator's note: If you are reading this file in English, then it's obvious that you're playing the English version. In fact, this is version 3.0 of said translation! It's been a long road, but we're finally here.]
+英語版翻訳者より：英語版が完成しました！こちらをご覧ください：
+forum.starmen.net/forum/Fan/Games/OFF-by-Mortis-Ghost/
+日本語版データ担当より：日本語版も完成しました！こちらをご覧ください：
+http://offjptranslation.wordpress.com/
 
-Q : I have another question, but I'm afraid of getting in contact with you because you seem like a bizarre fellow.
-R : I left my email address below. Don't hesitate to contact me. I'd be happy to answer your questions.
-[Translator's note: Should you have any questions about the translation, or found bugs or typos in this build, my contact details can be found below as well! -RecDra]
+Q : 他に質問したいことがあるんですが、あなたが変人っぽいので連絡を取るのが怖いです。
+A : 下の方に、私のEメールアドレスを乗せておきました。どうぞ遠慮せずに連絡してください。喜んであなたの質問にお答えしますよ。
 
-CREDITS
-Game created by Mortis Ghost
-Soundtrack and Co-Production by Alias Conrad Coldwood
-Main Testing by Alias Conrad Coldwood and Ze.
-Beta-testing by Kno, Eolen and Minusc
-Sugar's Design by Lithiriem
-Ballman's and Boxxer's Designs by Azertip
-Made with the French Version of RPG Maker 2003 translated by Bodom Child & RaBBi
+
+
+【 原作クレジット 】
+
+ゲーム制作：Mortis Ghost
+音楽制作・制作協力：Alias Conrad Coldwood
+メインテスター：Conrad Coldwood and Ze.
+βテスト協力：Kno, Eolen and Minusc
+シュガーのデザイン：Lithiriem
+ボールマン・ボクサーのデザイン：Azertip
+RPGツクールの仏語版制作・翻訳：Bodom Child & RaBBi
 A UNPRODUCTIVE FUN TIME game
-(In association with La Banque Mondiale et Son Orchestre and Forgotten Dreams)
+(協力： La Banque Mondiale et Son Orchestre and Forgotten Dreams)
 
-CREDITS FOR VERSION 3.0 OF THE TRANSLATION
-Translation created by RecDra
-Main scripting by DismalUprising
-Event scripting and implementation of the third gender option by Lady Saytenn
-Image file localisation by DismalUprising, 3upmoon, Scarecrows-Talk and Creation.
-Music update by JazzJackalope
-Translation beta-testing by DismalUprising, Lady Saytenn, Brainplaguerewind, Angelique, Choco and RecDra's Patreon Supporters (see the seperate "translation special thanks.txt" file)
 
-CONTACTS
-Mortis Ghost : mortisnova@hotmail.com
-Alias Conrad Coldwood : aliasconradcoldwood@gmail.com
-RecDra: hasilein.ness@gmail.com
+【 日本語版クレジット 】
+
+メイン日本語翻訳：サラチ/EmptyLot
+校正：じょに　百番
+ベータ版テスター：YSSN　じょに
+データ出入力・企画：YSSN
+スペシャルサンクス：
+OFF和訳動画を作ってくださったAlkaさん！
+英文メールを作成してくださったYKさん！
+Mac OS用OFF日本語版を作成して下さったmattintosh4さん！
+日本語版の公開許可を下さり、翻訳ではアドバイスを下さった原作者のMortisGhostさん！
+Twitterで応援して下さったたくさんの方々！
+
+
+【コンタクト】
+
+制作/Mortis Ghost : mortisnova@hotmail.com
+音楽/Alias Conrad Coldwood : aliasconradcoldwood@gmail.com
+
+英語版翻訳/Reconstructed Dragon : gabriel.koerber@hotmail.de
+日本語版データ担当(企画)/YSSN : offjptranslation@gmail.com
 
 http://gaarabis.free.fr
+http://www.myspace.com/banquemondiale
+
+Zanarkandフォーラム : http://zanaforum.free.fr　(※仏語)
 
 (c) 2008 Mortis Ghost - All rights reserved
 
-VERSION
-Changes in version 1.0
+
+
+【仏語版バージョン情報】
+
+Differences with version 1.0
 - Fixed a critical bug concerning the game's bosses
-- Fixed a boundary break in area 4 of zone 3
-- In theory, OFF no longer needs the installation of RPG Maker 2003 to work.
+- Correction d'un bug de passage dans la partie 4 de la zone 3
+- In theory, OFF no longer needs to run on RPG Maker 2003.
+バージョン1.0との相違点
+- ゲーム内のボスキャラクターに関する重大なバグを修正
+- Zone3、エリア4の通路にあったバグを修正
+- 理論上、RPGツクール2003がなくてもOFFを起動できるようにした
 
-Changes in version 1.1
+Differences with version 1.1
 - Fixed two incoherent pieces of dialogue
-- Fixed a boundary break in the purified zone 1
-- Fixed a minor bug in area 1 of zone 3
+- Correction d'un bug de passage dans la zone 1 blanche
+- Correction d'un bug mineur dans la partie 1 de la zone 3
 - Fixed a minor bug in zone 3
-- Fixed a boundary break in area 1 of zone 3
-- Fixed a boundary break in purified zone 3
-- Fixed a boundary break in the Room
-- Fixed a spelling mistake out of combat.
-- Fixed a minor bug concerning saving
+- Correction d'un bug de passage dans la partie 1 de la zone 3
+- Correction d'un bug de passage dans la zone 3 blanche
+- Correction d'un bug de passage dans la chambre
+- Correction d'une faute d'orthographe lors des combats.
+- Correction d'un bug mineur concernant les sauvegardes
+バージョン1.1との相違点
+- つじつまが合っていなかった会話を２つ修正
+- 浄化後Zone1の通路にあったバグを修正
+- Zone3、エリア１にあった微細なバグを修正
+- Zone3にあった微細なバグを修正
+- Zone3、エリア１の通路にあったバグを修正
+- 浄化後Zone１の通路にあったバグを修正
+- The roomの通路にあったバグを修正
+- 戦闘中の表示に綴り間違いがあったのを修正
+- セーブに関する微細なバグを修正
 
-Changes in version 1.2
+Differences with version 1.2
 - Fixed a bug in zone 2
-- Added links to the Read Me to the font files and a walkthrough
-- Added a brief introduction to the music.
+- Ajout dans le lisez-moi des liens vers les polices et la soluce
+- Added a very quick introduction about the music.
 - Fixed a minor bug with the end credits.
-- Changed the screen size
-- Fixed a bug with the combat music in zone 2
-- Fixed a terrible display bug in the Room.
+- Changement de l'馗ran
+- Correction d'un bug concernant la musique des combats dans la zone 2
+- Correction d'un bug d'affichage minable dans la chambre.
+バージョン1.2との相違点
+- Zone2のバグを修正
+- フォントの問題や攻略チャートについてRead meファイルに追加
+- ゲーム音楽に関する簡単な説明を冒頭に追加
+- エンドクレジットに関する微細なバグを修正
+- 画面の変更
+- Zone2での戦闘中BGMに関するバグを修正
+- The roomの表示に関するバグを修正
 
-Changed in version 1.3
+Differences with version 1.3
 - Fixed a bug in zone 0's tutorial
-- Fixed a boundary break in zone 1
+- Correction d'un bug de passage dans la zone 1
 - Fixed a major bug in zone 3
+バージョン1.3との相違点
+- Zone0のチュートリアルにおけるバグを修正
+- Zone1の通路にあったバグを修正
+- Zone3における深刻なバグを修正
 
-Changes in version 1.4
+Differences with version 1.4
 - Fixed a major bug in zone 2
+バージョン1.4との相違点
+- Zone2における深刻なバグを修正
 
-Changes in version 1.5
-- Finally fixed the unreadable font problem (I hope)
+Differences with version 1.5
+- Correction d馭initive des polices illisibles du jeu (I hope)
+バージョン1.5との相違点
+- ゲーム内のフォントが読めない問題の最終的な解決(一応、できたと思います)
 
----
 
-Technical changes in version 1.4 of the translation:
-- Added the translation team into the credits of the game and the contact part of the Read Me
-- Fixed a bug concerning saving after the game's bosses
-- Added modified music files to avoid a problem with RPGmaker 2003 that would affect the game's sound atmosphere
-- Fixed an event inconsistency in zone 2
-- Fixed an image file name problem that would crash the game on some computers
-- Added a secret Eye analysis
+【日本語版バージョン情報】
+(現行バージョン1.2.3)
 
-Technical changes in version 2.0 of the translation:
-- Translated important parts of the Read Me
-- Added a message at the beginning of the game to tell people to install the fonts (because people are too lazy to read this Read Me or the first post of the forum thread)
+バージョン1.3βとの相違点
+- 日本語版v1.3βにあったいくつかのバグ、英語版v2.0にあった音楽に関するバグ、仏語版→英語版にあったいくつかの誤訳を修正。
 
-Technical changes in version 3.0 of the translation:
--Reworked the entire translation to be more sound (finally)
--Added a third gender option for non-binary players
--Re-modified the game's music to play extended versions of many songs and generally improved the sound atmosphere
--Fixed a handful of boundary breaks in zone 1, zone 2 and the Room
--Fixed a text box not showing up during the chase sequence in zone 3
--Fixed the player being able to move during a cutscene in the Room
--Fixed a bug during the tutorial in zone 0
--Fixed a text box showing up twice in area 3 of zone 3
--Fixed several graphical errors associated with Add-on sprites
+バージョン1.0との相違点
+- 複数のテキストが英語表記のままだったものを修正
+- Zone1一部のテキストが仏語表記のままだったものを修正
+- Zone0一部のテキストを翻訳修正
+- Zone2一部のテキストを翻訳修正
+- Zone3一部エリアの戦闘背景を修正
+- Zone3一部の敵説明文を修正
+- 戦闘コマンドの一部を修正
+- Read meのテキストを一部修正・追加
+
+バージョン1.1との相違点
+- 敵戦闘コマンド名を一部修正
+- Zone2文字送り速度を一部修正
+- Zone2一部テキストを正しいものに差し替え
+- The Room一部テキストを正しいものに差し替え
+- 一部画像を差し替え（仏語版仕様に）
+- 一部アイテム説明文を修正
+
+バージョン1.2との相違点
+- 一部スキルの説明文を修正
+- Zone0の進行に致命的なバグが発生していたものを修正
+
+バージョン1.2.1との相違点
+- Zone3にて進行に致命的なバグが発生していたものを修正
+
+バージョン1.2.2との相違点
+- テキストデータ等の軽微な修正
+
+
